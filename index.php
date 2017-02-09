@@ -28,7 +28,7 @@ $quoteString = $selectedQuote['quote'];
 $quoteSource = $selectedQuote['author'];
 
 ?>
-
+<!DOCTYPE html>
 <html>
 	<head>
 		<title>Mozhgan Moghanian</title>
