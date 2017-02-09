@@ -11,7 +11,7 @@ h3{
 }
 
 body{
-	background: asset_url('violin-2.jpg');
+	background: url('violin-2.jpg');
 	background-repeat:no-repeat;
   background-size:cover;
 	background-position:center;
@@ -34,7 +34,7 @@ p {
 
 .blue-white-red {
 	font-size:20px;
-  background-image: linear-gradient(to right, rgb(59, 0, 102)22%, rgb(230, 236, 255) 50%, rgb(128, 0, 0));
+  background-image: linear-gradient(to right, rgb(59, 0, 102)22%, rgb(153, 194, 255) 50%, rgb(128, 0, 0));
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
