@@ -32,7 +32,7 @@ $quoteSource = $selectedQuote['author'];
 <html>
 	<head>
 		<title>Mozhgan Moghanian</title>
-		<link rel="stylesheet" href="a1.css" type="text/css">
+		<link rel="stylesheet" href="a1.css.css" type="text/css">
 	</head>
 	<body>
 		<div class="container">
