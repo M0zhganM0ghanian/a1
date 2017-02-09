@@ -3,7 +3,7 @@
 $quotes = [
 	[
 		'quote' => 'Enjoy life now. This is not rehearsal! ',
-		'author' => ' 66666666'
+		'author' => 'Unknown'
 	],
 	[
 		'quote' => 'It is not what you do once in a while; It is what you do day in and day out that makes the difference.',
@@ -11,15 +11,15 @@ $quotes = [
 	],
 	[
 		'quote' => 'H.O.P.E : Hold on, pain ends',
-		'author' => ' 5555555555555'
+		'author' => 'Unknown'
 	],
 	[
 		'quote' => 'You get what you settle for',
-		'author' => '22222222222 '
+		'author' => 'Unknown'
 	],
 	[
-		'quote' => 'A head full of fears has no space for dreams',
-		'author' => '11111111111 '
+		'quote' => 'Happiness is when what you think, what you say, and what you do are in harmony',
+		'author' => 'Mahatma Gandhi '
 	],
 ];
 
@@ -37,28 +37,23 @@ $quoteSource = $selectedQuote['author'];
 	<body>
 		<div class="container">
 			<h1>Mozhgan Moghanian</h1>
-			<!--
-			<div class="pic">
-				<img src="sima.JPG" alt="Sima's beautiful photo">
-			</div>
-				-->
 			<div class="circle"></div>
 			<div class="empty"></div>
 			<div class="quote">
-				<?php require 'a1.php';?>
 				<h2>Random Quote</h2>
 				<blockquote>
-					<h2><?php echo $quoteString; ?></h2>
+					<h3><?php echo $quoteString; ?></h3>
 					<strong><?php echo $quoteSource; ?></strong>
 				</blockquote>
 			</div>
 			<div class="about">
 				<h3>About me</h3>
-				<p class="blue-white-blue">The length of a biography depends on the type
-           of information that should be included. The length will determine the
-            nature of information and how extensively it will explain the life
-             of a person. For instance, if you are to write a short paragraph
-              about a person it will mostly capture the important details that</p>
+				<p class="blue-white-red">I'm Mozhgan Moghanian 26 years old live in Vancouver, Canada with my lovely husband. I graduated in 2013 with
+        a B.Sc. in Engineering. As a fun I started to learn programming languages during my bachelor degree and I found myself crazy about that.
+        I keep learning by myself and during my very first job as a programmer, and still have passion for it which leads to study the master degree
+         in software at Harvard. On the other side of my life I am a math teacher (hope to find a relevant job soon), I play violin, no kids yet, love
+         my family...
+        </p>
 			</div>
 		</div>
 	</body>

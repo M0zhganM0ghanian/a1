@@ -3,20 +3,22 @@ h1{
 }
 h2{
 	text-align:center;
+  color: rgb(77, 0, 0);
+  font-weight: bold;
 }
+h3{
+	text-align:center;
+}
+
 body{
 	background-image:url("violin-2.JPG");
 	background-repeat:no-repeat;
-    background-size:cover;
+  background-size:cover;
 	background-position:center;
 }
 
-.blue-white-blue {
-	font-size:20px;
-  background-image: linear-gradient(to right, rgb(59, 0, 102)22%, rgb(230, 236, 255) 35%, rgb(244, 230, 255) 5%, rgb(72, 0, 128));
-  color: transparent;
-  -webkit-background-clip: text;
-  background-clip: text;
+p {
+    font-family: serif, "Times New Roman", Times;
 }
 
 .container {
@@ -29,22 +31,24 @@ body{
 	margin:auto;
 	padding-top:50px;
 }
-.pic{
-	width:50%;
-	float:left;
-	background-color:yellow;
-	height:300px;
+
+.blue-white-red {
+	font-size:20px;
+  background-image: linear-gradient(to right, rgb(59, 0, 102)22%, rgb(230, 236, 255) 50%, rgb(128, 0, 0));
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
 }
 
 .circle {
-    width: 200px;
-    height: 200px;
-    border-radius: 100px;
-    background-image: url('circle-1.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position:center;
-    float:left;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  background-image: url('circle-1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:center;
+  float:left;
 	padding-top:15px;
 }
 
@@ -66,11 +70,4 @@ body{
 	color:rgb(107, 0, 179);
 	text-align:left;
 	clear:both;
-}
-
-img {
-	display:block;
-	margin:auto;
-	width:50%;
-	height:auto;
 }
